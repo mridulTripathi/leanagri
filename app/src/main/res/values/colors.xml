@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="darkGrey">#807f7f</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightGrey">#F5F5F5</color>
+    <color name="lightGreen">#dd66c00c</color>
+    <color name="darkGreen">#325b09</color>
+    <color name="paleGreen">#9EC77E</color>
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+    <color name="toolbar">#efefef</color>
+    <color name="black">#000000</color>
+</resources>

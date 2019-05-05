@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:id="@+id/head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/movies"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sort_by"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/title_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/round_border"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/title"
+                android:tint="@color/colorPrimaryDark" />
+
+            <ImageView
+                android:id="@+id/rating_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/round_border"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/star"
+                android:tint="@color/colorPrimaryDark" />
+
+            <ImageView
+                android:id="@+id/date_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_border"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/date"
+                android:tint="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_list"
+        android:layout_below="@+id/head_layout"/>
+
+</RelativeLayout>

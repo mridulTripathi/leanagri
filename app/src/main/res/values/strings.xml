@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LeanAgri</string>
+    <string name="the_technology_solution_for_farmers">The Technology Solution for Farmers</string>
+    <string name="avengers_endgame">Avengers: Endgame</string>
+    <string name="released">Released</string>
+    <string name="rated">Rated</string>
+    <string name="random_date">March, 24 2019</string>
+    <string name="insight">Insight:</string>
+    <string name="movies">Movies</string>
+    <string name="sort_by">Sort By:</string>
+</resources>
